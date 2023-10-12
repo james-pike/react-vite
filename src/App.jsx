@@ -42,11 +42,7 @@ function App() {
   </div>
   </div>
 </nav>
-<section>
-<div class="w-full h-1/4">
-        <img src="src/assets/ghgh.jpg" alt="Your Image" class="w-full h-1/4 object-cover"/>
-    </div>
-</section>
+
 
 
 <div className="grid grid-cols-1 mx-auto max-w-7xl lg:grid-cols-2">
