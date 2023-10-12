@@ -46,7 +46,6 @@ function App() {
 <div className='md:hidden'>
   <br></br>
   <br></br>
-  <br></br>
   
 </div>
 
