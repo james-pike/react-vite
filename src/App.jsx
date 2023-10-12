@@ -42,9 +42,16 @@ function App() {
   </div>
   </div>
 </nav>
+<section>
+<div class="w-full h-1/4">
+        <img src="src/assets/ghgh.jpg" alt="Your Image" class="w-full h-1/4 object-cover"/>
+    </div>
+</section>
+
 
 <div className="grid grid-cols-1 mx-auto max-w-7xl lg:grid-cols-2">
-        <div className="relative px-6 pt-24 pb-20 sm:pt-32 lg:static lg:px-8 lg:py-48">
+  
+        <div className="relative px-6 pt-20 pb-20 sm:pt-32 lg:static lg:px-8 lg:py-48">
           <div className="max-w-xl mx-auto lg:mx-0 lg:max-w-lg">
             <div className="absolute inset-y-0 left-0 w-full overflow-hidden bg-gray-100 -z-10 ring-1 ring-gray-900/10 lg:w-1/2">
               <svg
