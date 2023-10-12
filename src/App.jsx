@@ -43,6 +43,12 @@ function App() {
   </div>
 </nav>
 
+<div className='md:hidden'>
+  <br></br>
+  <br></br>
+  <br></br>
+  
+</div>
 
 
 <div className="grid grid-cols-1 mx-auto max-w-7xl lg:grid-cols-2">
