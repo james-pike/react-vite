@@ -12,7 +12,12 @@ function App() {
     top: 0,
     width: '100%',
     zIndex: 1000, // You can adjust the z-index value if needed
+    
     // Add other styling as needed, like background color, box shadow, etc.
+  };
+
+  const buttonStyle = {
+    margin: '0 10px', // Add margin to create spacing between buttons
   };
 
   return (
@@ -27,7 +32,7 @@ function App() {
         <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Fishy Law</span>
       </Navbar.Brand>
       <div className="flex md:order-2">
-        <Button>Contact</Button>
+      <Button style={buttonStyle}>Contact</Button>
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
