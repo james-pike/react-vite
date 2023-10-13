@@ -31,7 +31,7 @@ function App() {
         <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 ml-3 mr-3 sm:h-9" alt="Flowbite React Logo" />
         <span className="self-center text-2xl font-semibold text-black whitespace-nowrap dark:text-white">Template</span>
       </Navbar.Brand>
-      <div className="flex md:order-2">
+      <div className="flex px-2 md:order-2">
       <Button style={buttonStyle} className='bg-blue-600'>Contact</Button>
         <Navbar.Toggle />
       </div>
@@ -53,14 +53,14 @@ function App() {
 
 <div className='md:hidden'>
   <br></br>
-  <br></br>
+  
   
 </div>
 
 
 <div className="grid grid-cols-1 mx-auto max-w-7xl lg:grid-cols-2">
   
-        <div className="relative px-6 pt-20 pb-20 sm:pt-32 lg:static lg:px-8 lg:py-48">
+        <div className="relative px-6 pt-20 pb-16 sm:pt-32 lg:static lg:px-8 lg:py-48">
           <div className="max-w-xl mx-auto lg:mx-0 lg:max-w-lg">
             <div className="absolute inset-y-0 left-0 w-full overflow-hidden bg-gray-100 -z-10 ring-1 ring-gray-900/10 lg:w-1/2">
               <svg
@@ -128,9 +128,12 @@ function App() {
             </dl>
           </div>
         </div>
-        <div class="mt-0 marker:px-4 mx-auto max-w-screen-xl sm:py-24 lg:px-6 ">
+        <div class="marker:px-4 mx-auto max-w-screen-xl sm:py-24 lg:px-6 ">
+          
           <form action="#" class="grid grid-cols-1 gap-8 p-6 mx-auto mb-16 max-w-screen-md bg-white rounded-lg border border-gray-200 shadow-sm lg:mb-28 dark:bg-gray-800 dark:border-gray-700 sm:grid-cols-2">
               <div>
+                <div className='md:hidden'> <br></br></div>
+             
                   <label for="first-name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">First Name</label>
                   <input type="text" id="first-name" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Bonnie" required/>
               </div>
