@@ -30,8 +30,8 @@ function App() {
 <div style={navbarStyle}>
 <Navbar fluid rounded>
       <Navbar.Brand href="https://flowbite-react.com">
-        <img src="https://flowbite.com/docs/images/logo.svg" className="h-6 mr-3 sm:h-9" alt="Flowbite React Logo" />
-        <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Fishy Law</span>
+        <img src="https://flowbite.com/docs/images/logo.svg" className="h-6 ml-3 mr-3 sm:h-9" alt="Flowbite React Logo" />
+        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Fishy Law</span>
       </Navbar.Brand>
       <div className="flex md:order-2">
       <Button style={buttonStyle}>Contact</Button>
