@@ -12,6 +12,7 @@ function App() {
     top: 0,
     width: '100%',
     zIndex: 1000, // You can adjust the z-index value if needed
+    borderBottom: '1px solid gray',
     
     
     // Add other styling as needed, like background color, box shadow, etc.
@@ -38,7 +39,7 @@ function App() {
       </div>
       <Navbar.Collapse>
       <ul className="flex flex-col p-4 -mt-1.5 font-medium text-left border border-gray-100 rounded-lg md:p-0 bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"> {/* Apply the classes here */}
-      <Navbar.Link href="#" active className="bg-blue-600 rounded"> {/* Apply the class to the selected item */}
+      <Navbar.Link href="#" active className="bg-blue-600"> {/* Apply the class to the selected item */}
                   Home
                 </Navbar.Link>
                 <Navbar.Link href="#">About</Navbar.Link>
