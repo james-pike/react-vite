@@ -12,7 +12,6 @@ function App() {
     top: 0,
     width: '100%',
     zIndex: 1000, // You can adjust the z-index value if needed
-    borderBottom: '1px solid gray',
     
     
     // Add other styling as needed, like background color, box shadow, etc.
