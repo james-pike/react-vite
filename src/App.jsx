@@ -1,15 +1,50 @@
 import { useState } from 'react'
 import './App.css'
 import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
+import { Button, Navbar } from 'flowbite-react';
 
 
 function App() {
   const [count, setCount] = useState(0)
 
+  const navbarStyle = {
+    position: 'fixed',
+    top: 0,
+    width: '100%',
+    zIndex: 1000, // You can adjust the z-index value if needed
+    // Add other styling as needed, like background color, box shadow, etc.
+  };
+
   return (
     <>
-    
+
 <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+  
+<div style={navbarStyle}>
+<Navbar fluid rounded>
+      <Navbar.Brand href="https://flowbite-react.com">
+        <img src="https://flowbite.com/docs/images/logo.svg" className="h-6 mr-3 sm:h-9" alt="Flowbite React Logo" />
+        <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Fishy Law</span>
+      </Navbar.Brand>
+      <div className="flex md:order-2">
+        <Button>Contact</Button>
+        <Navbar.Toggle />
+      </div>
+      <Navbar.Collapse>
+        <Navbar.Link href="#" active>
+          Home
+        </Navbar.Link>
+        <Navbar.Link href="#">About</Navbar.Link>
+        <Navbar.Link href="#">Services</Navbar.Link>
+        <Navbar.Link href="#">Pricing</Navbar.Link>
+        <Navbar.Link href="#">Contact</Navbar.Link>
+      </Navbar.Collapse>
+    </Navbar>
+    </div>
+    </nav>
+    
+
+{/* <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
   <a href="https://flowbite.com/" class="flex items-center">
       <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo"></img>
@@ -41,7 +76,8 @@ function App() {
     </ul>
   </div>
   </div>
-</nav>
+</nav> */}
+
 
 <div className='md:hidden'>
   <br></br>
@@ -207,6 +243,10 @@ function App() {
           </div>
         </form>
       </div>
+
+      
+
+   
     </>
   )
 }
