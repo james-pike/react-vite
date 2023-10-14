@@ -130,7 +130,7 @@ function App() {
         </div>
         <div class="marker:px-4 mx-auto max-w-screen-xl sm:py-24 lg:px-6 ">
           
-          <form action="#" class="grid grid-cols-1 gap-8 p-6 mx-auto mb-16 max-w-screen-md bg-white rounded-lg border border-gray-200 shadow-sm lg:mb-28 dark:bg-gray-800 dark:border-gray-700 sm:grid-cols-2">
+          <form action="#" class="grid grid-cols-1 gap-8 p-6 mx-auto  max-w-screen-md bg-white rounded-lg border border-gray-200 shadow-sm lg:mb-28 dark:bg-gray-800 dark:border-gray-700 sm:grid-cols-2">
               <div>
                 <div className='md:hidden'> <br></br></div>
              
@@ -155,6 +155,7 @@ function App() {
                   <p class="mt-4 text-sm text-gray-500">By submitting this form you agree to our <a href="#" class="text-primary-600 hover:underline dark:text-primary-500">terms and conditions</a> and our <a href="#" class="text-primary-600 hover:underline dark:text-primary-500">privacy policy</a> which explains how we may collect, use and disclose your personal information including to third parties.</p>
               </div>
               <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
+            <div></div>
           </form>
           
       </div>
@@ -280,8 +281,6 @@ function App() {
       <span class="block text-sm text-center text-gray-500 dark:text-gray-400">© 2021-2022 <a href="#" class="hover:underline">Flowbite™</a>. All Rights Reserved.</span>
   </div>
 </footer>
-
-   
     </>
   )
 }
