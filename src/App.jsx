@@ -60,7 +60,7 @@ function App() {
 
 <div className="grid grid-cols-1 mx-auto max-w-7xl lg:grid-cols-2">
   
-        <div className="relative px-6 pt-20 pb-16 sm:pt-32 lg:static lg:px-8 lg:py-48">
+        <div className="relative px-6 pt-20 pb-14 sm:pt-32 lg:static lg:px-8 lg:py-48">
           <div className="max-w-xl mx-auto lg:mx-0 lg:max-w-lg">
             <div className="absolute inset-y-0 left-0 w-full overflow-hidden bg-gray-100 -z-10 ring-1 ring-gray-900/10 lg:w-1/2">
               <svg
@@ -134,7 +134,7 @@ function App() {
               <div>
             
              
-                  <label for="first-name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">First Name</label>
+                  <label for="first-name" class="mt-4 block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">First Name</label>
                   <input type="text" id="first-name" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Bonnie" required/>
               </div>
               <div>
