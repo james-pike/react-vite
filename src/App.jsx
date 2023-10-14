@@ -24,7 +24,7 @@ function App() {
   return (
     <>
 
-<nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+<nav className="fixed top-0 left-0 z-20 w-full bg-white border-b border-red-500 dark:bg-gray-900 dark:border-gray-600">
 <div style={navbarStyle} className=''>
 <Navbar fluid rounded>
       <Navbar.Brand href="https://flowbite-react.com">
@@ -58,7 +58,7 @@ function App() {
 </div>
 
 
-<div className="grid grid-cols-1 mx-auto max-w-7xl lg:grid-cols-2">
+<div className="grid grid-cols-1 mx-auto max-w-7xl lg:grid-cols-2 md:-mb-40">
   
         <div className="relative px-6 pt-20 pb-14 sm:pt-32 lg:static lg:px-8 lg:py-48">
           <div className="max-w-xl mx-auto lg:mx-0 lg:max-w-lg">
@@ -133,8 +133,8 @@ function App() {
           <form action="#" class="grid grid-cols-1 gap-8 p-6 mx-auto max-w-screen-md bg-white rounded-lg border border-gray-200 shadow-sm lg:mb-28 dark:bg-gray-800 dark:border-gray-700 sm:grid-cols-2">
               <div>
             
-             
-                  <label for="first-name" class="mt-4 block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">First Name</label>
+             <div className='mt-4 md:hidden'></div>
+                  <label for="first-name" class=" block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">First Name</label>
                   <input type="text" id="first-name" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Bonnie" required/>
               </div>
               <div>
@@ -211,7 +211,7 @@ function App() {
                   </li>
               </ul>
           </div>
-          <div class="lg:mx-auto">
+          {/* <div class="lg:mx-auto sm:hidden">
               <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>
               <ul class="text-gray-500 dark:text-gray-400">
                   <li class="mb-4">
@@ -275,8 +275,8 @@ function App() {
                       <a href="#" class="hover:underline">MacOS</a>
                   </li>
               </ul>
-          </div>
-      </div>
+          </div> */}
+      </div> 
       <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"/>
       <span class="block text-sm text-center text-gray-500 dark:text-gray-400">© 2021-2022 <a href="#" class="hover:underline">Flowbite™</a>. All Rights Reserved.</span>
   </div>
